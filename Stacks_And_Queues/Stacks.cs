@@ -10,10 +10,6 @@ namespace Stacks_And_Queues
     public class Stacks
     {
         public Node top;
-        public Stacks()
-        {
-            this.top = null;
-        }
         public void Push(int data)
         {
             Node newNode = new Node(data);
